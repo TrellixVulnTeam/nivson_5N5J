@@ -99,9 +99,9 @@
 9098;10;Une salle de cours;Jeudi;cours type magistral;74;90;107
 9099;10;Une salle de cours;Vendredi;cours type magistral;32;51;76
 9100;10;Une salle de cours;Vendredi;cours type magistral;74;89;104
-9101;11;"Dans la file d'attente pour la restauration ""Aquarium""";Lundi;pause méridienne;81;86,5;92
+9101;11;"Dans la file d'attente pour la restauration ""Aquarium""";Lundi;pause méridienne;81;86;92
 9102;11;"Dans la file d'attente pour la restauration ""Aquarium""";Lundi;;;;
-9103;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mardi;pause méridienne;85;90,5;96
+9103;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mardi;pause méridienne;85;90;96
 9104;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mardi;;;;
 9105;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mercredi;pause méridienne;74;81;88
 9106;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mercredi;;;;

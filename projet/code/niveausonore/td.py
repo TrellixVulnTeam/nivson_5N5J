@@ -18,4 +18,20 @@ def import_data():
             out.append(list(csv.DictReader(f,delimiter=';')))
     return out
 
-print(import_data())
+def format_data(D):
+    out = []
+    for i in D:
+        for j in i:
+            if j['Valeur minimale'] == '' or j['Valeur maximale'] == '' or j['Valeur moyenne'] == '':
+                pass
+            else:
+                j['Valeur minimale'] = int(j['Valeur minimale'])
+                j['Valeur moyenne'] = int(j['Valeur moyenne'])
+                j['Valeur maximale'] = int(j['Valeur maximale'])
+                j['Id'] = int(j['Id'])
+                out.append(j)
+    return out
+
+data = format_data(import_data())
+
+def search_data(D):
