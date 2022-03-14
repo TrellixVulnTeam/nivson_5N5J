@@ -1,0 +1,151 @@
+﻿Id;N° du binôme;Lieu;Jour;Conditions ;Valeur minimale;Valeur moyenne;Valeur maximale
+10001;1;La cour des premières près des arbres;Lundi;Récréation du matin;80;91;127
+10002;1;La cour des premières près des arbres;Lundi;Récréation de l'après-midi;46;57;77
+10003;1;La cour des premières près des arbres;Mardi;Récréation du matin;42;56;74
+10004;1;La cour des premières près des arbres;Mardi;Récréation de l'après-midi;52;63;83
+10005;1;La cour des premières près des arbres;Mercredi;Récréation du matin;71;83;100
+10006;1;La cour des premières près des arbres;Mercredi;Récréation de l'après-midi;47;58;78
+10007;1;La cour des premières près des arbres;Jeudi;Récréation du matin;75;89;107
+10008;1;La cour des premières près des arbres;Jeudi;Récréation de l'après-midi;51;62;82
+10009;1;La cour des premières près des arbres;Vendredi;Récréation du matin;42;53;74
+10010;1;La cour des premières près des arbres;Vendredi;Récréation de l'après-midi;59;70;90
+10011;2;La cour des premières près des casiers;Mardi;Récréation du matin;30;45;67
+10012;2;La cour des premières près des casiers;Mardi;Récréation de l'après-midi;39;50;71
+10013;2;La cour des premières près des casiers;Mercredi;Récréation du matin;37;49;69
+10014;2;La cour des premières près des casiers;Mercredi;pause méridienne;42;54;77
+10015;2;La cour des premières près des casiers;Mercredi;Récréation de l'après-midi;40;52;70
+10016;2;La cour des premières près des casiers;Jeudi;Récréation du matin;39;52;67
+10017;2;La cour des premières près des casiers;Jeudi;Récréation de l'après-midi;42;50;69
+10018;2;La cour des premières près des casiers;Vendredi;Récréation du matin;36;49;63
+10019;2;La cour des premières près des casiers;Vendredi;pause méridienne;44;55;76
+10020;2;La cour des premières près des casiers;Vendredi;Récréation de l'après-midi;48;59;77
+10021;3;;;;;;
+10022;3;;;;;;
+10023;3;;;;;;
+10024;3;;;;;;
+10025;3;;;;;;
+10026;3;;;;;;
+10027;3;;;;;;
+10028;3;;;;;;
+10029;3;;;;;;
+10030;3;;;;;;
+10031;4;Les toilettes des premières;Lundi;Récréation du matin;60;71;97
+10032;4;Les toilettes des premières;Lundi;Récréation de l'après-midi;58;70;93
+10033;4;Les toilettes des premières;Mardi;Récréation du matin;59;73;97
+10034;4;Les toilettes des premières;Mardi;pause méridienne;45;69;107
+10035;4;Les toilettes des premières;Mercredi;Récréation du matin;44;67;89
+10036;4;Les toilettes des premières;Mercredi;Récréation de l'après-midi;60;71;97
+10037;4;Les toilettes des premières;Jeudi;Récréation du matin;58;70;93
+10038;4;Les toilettes des premières;Jeudi;Récréation de l'après-midi;59;73;97
+10039;4;Les toilettes des premières;Vendredi;Récréation du matin;45;69;107
+10040;4;Les toilettes des premières;Vendredi;pause méridienne;44;67;89
+10041;5;Un couloir du batiment 1ères;Jeudi;Lors de la sonnerie ;78;88;115
+10042;5;Un couloir du batiment 1ères;Jeudi;Après la  sonnerie ;56;65;95
+10043;5;Un couloir du batiment 1ères;Vendredi;Lors de la sonnerie ;75;90;113
+10044;5;Un couloir du batiment 1ères;Vendredi;Après la  sonnerie ;45;61;86
+10045;5;Un couloir du batiment 1ères;Mardi;Lors de la sonnerie ;87;92;112
+10046;5;Un couloir du batiment 1ères;Mardi;Après la  sonnerie ;51;58;74
+10047;5;Un couloir du batiment 1ères;Lundi;Lors de la sonnerie ;80;97;110
+10048;5;Un couloir du batiment 1ères;Lundi;Après la  sonnerie ;32;45;60
+10049;5;Un couloir du batiment 1ères;Jeudi;Lors de la sonnerie ;75;94;110
+10050;5;Un couloir du batiment 1ères;Jeudi;Après la  sonnerie ;45;54;62
+10051;6;Un couloir du batiment 2ndes;lundi;Après la  sonnerie ;76;;
+10052;6;Un couloir du batiment 2ndes;lundi;Lors de la sonnerie ;76;95;123
+10053;6;Un couloir du batiment 2ndes;Mardi;Lors de la sonnerie ;46;71;113
+10054;6;Un couloir du batiment 2ndes;Mardi;Après la  sonnerie ;47;58;79
+10055;6;Un couloir du batiment 2ndes;mardi;Après la  sonnerie ;43;57;76
+10056;6;Un couloir du batiment 2ndes;mardi;Lors de la sonnerie ;56;81;109
+10057;6;Un couloir du batiment 2ndes;mercredi;Après la  sonnerie ;36;53;78
+10058;6;Un couloir du batiment 2ndes;mercredi;après la sonnerie;41;55;74
+10059;6;Un couloir du batiment 2ndes;jeudi;Lors de la sonnerie ;50;66;95
+10060;6;Un couloir du batiment 2ndes;jeudi;Après la  sonnerie ;30;49;75
+10061;7;Un couloir du batiment terminales;Lundi;Lors de la sonnerie ;29;47;76
+10062;7;Un couloir du batiment terminales;Lundi;Après la  sonnerie ;35;48;60
+10063;7;Un couloir du batiment terminales;Mardi;Lors de la sonnerie ;26;59;75
+10064;7;Un couloir du batiment terminales;Mardi;Après la  sonnerie ;37;50;68
+10065;7;Un couloir du batiment terminales;Mercredi;Lors de la sonnerie ;24;60;79
+10066;7;Un couloir du batiment terminales;Mercredi;Après la  sonnerie ;35;47;65
+10067;7;Un couloir du batiment terminales;Jeudi;Lors de la sonnerie ;23;50;77
+10068;7;Un couloir du batiment terminales;Jeudi;Après la  sonnerie ;38;49;68
+10069;7;Un couloir du batiment terminales;Vendredi;Lors de la sonnerie ;26;49;73
+10070;7;Un couloir du batiment terminales;Vendredi;Après la  sonnerie ;25;37;51
+10071;8;Le foyer;Lundi;Récréation de l'après-midi;42;56;75
+10072;8;Le foyer;Mardi;pause méridienne;46;64;96
+10073;8;Le foyer;Mardi;pause méridienne;55;65;83
+10074;8;Le foyer;Jeudi;pause méridienne;50;61;85
+10075;8;Le foyer;Jeudi;pause méridienne;53;70;99
+10076;8;Le foyer;Vendredi;pause méridienne;49;67;104
+10077;8;;;;;;
+10078;8;;;;;;
+10079;8;;;;;;
+10080;8;;;;;;
+10081;9;Le CDI;Lundi;pause méridienne;28;41;70
+10082;9;Le CDI;Mardi;pause méridienne;34;38;68
+10083;9;Le CDI;Mercredi;Heure libre;22;45;74
+10084;9;Le CDI;Jeudi;Heure libre;31;56;80
+10085;9;Le CDI;Vendredi;pause méridienne;45;63;87
+10086;9;Le CDI;Vendredi;pause méridienne;33;47,5;62
+10087;9;Le CDI;Jeudi;Récréation de l'après-midi;40;55;70
+10088;9;Le CDI;Mardi;Récréation du matin;31;54;77
+10089;9;Le CDI;Lundi;Heure libre;20;35;50
+10090;9;Le CDI;Vendredi;Heure libre;28;46;64
+10091;10;Une salle de cours;Mardi;cours type magistral;63;79;100
+10092;10;Une salle de cours;Jeudi;cours en travail de groupe;45;65;81
+10093;10;Une salle de cours;Mercredi;cours type magistral;43;61;74
+10094;10;Une salle de cours;Vendredi;cours type magistral;28;58;76
+10095;10;Une salle de cours;Lundi;cours type magistral;31;51;67
+10096;10;Une salle de cours;Jeudi;cours type magistral;34;55;75
+10097;10;Une salle de cours;Mardi;cours type magistral;33;45;81
+10098;10;Une salle de cours;Mardi;cours type magistral;44;63;106
+10099;10;Une salle de cours;Mardi;cours type magistral;78;92;125
+10100;10;Une salle de cours;Lundi;cours type magistral;53;67;79
+10101;11;Un couloir du batiment 1ères;lundi;pause méridienne;35;55;78
+10102;11;Un couloir du batiment 1ères;mardi;pause méridienne;27;43;80
+10103;11;Un couloir du batiment 1ères;mercredi;pause méridienne;29;50;72
+10104;11;Un couloir du batiment 1ères;jeudi;pause méridienne;26;46;74
+10105;11;Un couloir du batiment 1ères;vendredi;pause méridienne;34;55;77
+10106;11;;;;;;
+10107;11;;;;;;
+10108;11;;;;;;
+10109;11;;;;;;
+10110;11;;;;;;
+10111;12;;;;;;
+10112;12;;;;;;
+10113;12;;;;;;
+10114;12;;;;;;
+10115;12;;;;;;
+10116;12;;;;;;
+10117;12;;;;;;
+10118;12;;;;;;
+10119;12;;;;;;
+10120;12;;;;;;
+10121;13;Le complexe sportif;Vendredi;Vestiaire;53;59;81
+10122;13;Le complexe sportif;Vendredi;Séance d' EPS;46;58;75
+10123;13;Le complexe sportif;Vendredi;Vestiaire;51;62;79
+10124;13;Le complexe sportif;Vendredi;Séance d' EPS;58;71;92
+10125;13;Le complexe sportif;Vendredi;Vestiaire;47;58;82
+10126;13;Le complexe sportif;Vendredi;Séance d' EPS;48;58;79
+10127;13;Le complexe sportif;Vendredi;Vestiaire;53;64;84
+10128;13;Le complexe sportif;Vendredi;Séance d' EPS;65;72;98
+10129;13;Le complexe sportif;Vendredi;Vestiaire;58;67;77
+10130;13;Le complexe sportif;Vendredi;Séance d' EPS;49;55;71
+10131;14;La cour des secondes ;mardi;Récréation du matin;95;107;119
+10132;14;La cour des secondes ;jeudi;Récréation de l'après-midi;53;64;77
+10133;14;La cour des secondes ;vendredi;Récréation du matin;52;62;79
+10134;14;La cour des secondes ;lundi;Récréation de l'après-midi;54;68;89
+10135;14;La cour des secondes ;mardi;Récréation du matin;52;62;74
+10136;14;La cour des secondes ;mercredi;récré du matin;66;77;85
+10137;14;La cour des secondes ;jeudi;récré après midi;73;82;90
+10138;14;La cour des secondes ;vendredi;récré du matin;62;78;83
+10139;14;;;;;;
+10140;14;;;;;;
+10141;16;Sous le préau de la cour des terminales;lundi;Récréation du matin;31;55;80
+10142;16;Sous le préau de la cour des terminales;mardi;Récréation du matin;34;56;78
+10143;16;Sous le préau de la cour des terminales;mardi;Récréation de l'après-midi;33;54;75
+10144;16;Sous le préau de la cour des terminales;mercredi;Récréation du matin;34;54;74
+10145;16;Sous le préau de la cour des terminales;jeudi;Récréation de l'après-midi;32;51;70
+10146;16;Sous le préau de la cour des terminales;jeudi;Récréation du matin;31;51;72
+10147;16;Sous le préau de la cour des terminales;jeudi;Récréation de l'après-midi;30;51;73
+10148;16;Sous le préau de la cour des terminales;vendredi;Récréation du matin;34;52;71
+10149;16;Sous le préau de la cour des terminales;vendredi;Récréation de l'après-midi;33;51;70
+10150;16;Sous le préau de la cour des terminales;vendredi;Récréation du matin;32;53;74

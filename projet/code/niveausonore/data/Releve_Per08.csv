@@ -1,0 +1,161 @@
+﻿Id;N° du binôme;Lieu;Jour;Conditions ;Valeur minimale;Valeur moyenne;Valeur maximale
+8001;1;La cour des premières près des arbres;Lundi;Récréation du matin;49;62;95
+8002;1;La cour des premières près des arbres;Lundi;Récréation de l'après-midi;49;61;80
+8003;1;La cour des premières près des arbres;Mardi;Récréation du matin;46;59;75
+8004;1;La cour des premières près des arbres;Mardi;Récréation de l'après-midi;48;59;73
+8005;1;La cour des premières près des arbres;Mercredi;Récréation du matin;42;56;78
+8006;1;La cour des premières près des arbres;Mercredi;Récréation de l'après-midi;45;58;73
+8007;1;La cour des premières près des arbres;Jeudi;Récréation du matin;42;56;72
+8008;1;La cour des premières près des arbres;Jeudi;Récréation de l'après-midi;43;57;85
+8009;1;La cour des premières près des arbres;Vendredi;Récréation du matin;46;64;83
+8010;1;La cour des premières près des arbres;Vendredi;Récréation de l'après-midi;47;72;97
+8011;2;La cour des premières près des casiers;Lundi;Récréation du matin;72;77;79
+8012;2;La cour des premières près des casiers;Mercredi;Récréation du matin;74;78;82
+8013;2;La cour des premières près des casiers;Jeudi;Récréation du matin;80;84;87
+8014;2;La cour des premières près des casiers;Vendredi;Récréation du matin;74;77;83
+8015;2;La cour des premières près des casiers;Mercredi;Récréation de l'après-midi;79;82;89
+8016;2;;;;;;
+8017;2;;;;;;
+8018;2;;;;;;
+8019;2;;;;;;
+8020;2;;;;;;
+8021;3;"L'espace ""fumeurs""";Lundi;Récréation du matin;39;52;100
+8022;3;"L'espace ""fumeurs""";Lundi;Récréation de l'après-midi;36;47;89
+8023;3;"L'espace ""fumeurs""";Mardi;Récréation du matin;38;53;78
+8024;3;"L'espace ""fumeurs""";Mardi;Récréation de l'après-midi;39;52;84
+8025;3;"L'espace ""fumeurs""";Mercredi;Récréation du matin;39;53;85
+8026;3;"L'espace ""fumeurs""";Mercredi;Récréation de l'après-midi;44;60;72
+8027;3;"L'espace ""fumeurs""";Jeudi;Récréation du matin;40;58;85
+8028;3;"L'espace ""fumeurs""";Jeudi;Récréation de l'après-midi;42;54;81
+8029;3;"L'espace ""fumeurs""";Vendredi;Récréation du matin;40;49;68
+8030;3;"L'espace ""fumeurs""";Vendredi;Récréation de l'après-midi;42;51;75
+8031;4;Les toilettes des premières;Mardi;Récréation du matin;40;55;83
+8032;4;Les toilettes des premières;Mardi;Récréation de l'après-midi;34;50;70
+8033;4;Les toilettes des premières;Mercredi;Récréation du matin;36;57;84
+8034;4;Les toilettes des premières;Mercredi;Récréation de l'après-midi;48;68;90
+8035;4;Les toilettes des premières;Jeudi;Heure libre;42;55;69
+8036;4;Les toilettes des premières;Jeudi;Heure libre;37;64;87
+8037;4;Les toilettes des premières;Jeudi;Heure libre;35;49;64
+8038;4;Les toilettes des premières;Jeudi;Heure libre;35;46;59
+8039;4;Les toilettes des premières;Vendredi;Récréation du matin;43;52;68
+8040;4;Les toilettes des premières;Vendredi;Récréation de l'après-midi;40;61;84
+8041;5;Un couloir du batiment 1ères;lundi;Lors de la sonnerie ;31;40;70
+8042;5;Un couloir du batiment 1ères;lundi;Après la  sonnerie ;29;35;49
+8043;5;Un couloir du batiment 1ères;mardi;Après la  sonnerie ;36;41;57
+8044;5;Un couloir du batiment 1ères;mardi;Lors de la sonnerie ;34;40;68
+8045;5;Un couloir du batiment 1ères;mercredi;Lors de la sonnerie ;30;46;71
+8046;5;Un couloir du batiment 1ères;mercredi;Après la  sonnerie ;26;34;65
+8047;5;Un couloir du batiment 1ères;jeudi;Après la  sonnerie ;27;38;56
+8048;5;Un couloir du batiment 1ères;jeudi;Après la  sonnerie ;36;54;73
+8049;5;Un couloir du batiment 1ères;vendredi;Après la  sonnerie ;33;59;106
+8050;5;Un couloir du batiment 1ères;vendredi;Après la  sonnerie ;33;50;73
+8051;6;Un couloir du batiment 2ndes;Lundi;Après la  sonnerie ;64;88;119
+8052;6;Un couloir du batiment 2ndes;Mardi;Après la  sonnerie ;35;61;100
+8053;6;Un couloir du batiment 2ndes;mercredi;Après la  sonnerie ;29;40;85
+8054;6;Un couloir du batiment 2ndes;jeudi;Après la  sonnerie ;32;52;80
+8055;6;Un couloir du batiment 2ndes;vendredi;Après la  sonnerie ;30;56;94
+8056;6;Un couloir du batiment 2ndes;lundi;Lors de la sonnerie ;45;60;84
+8057;6;Un couloir du batiment 2ndes;mardi;Lors de la sonnerie ;46;59;81
+8058;6;Un couloir du batiment 2ndes;mercredi;Lors de la sonnerie ;46;61;89
+8059;6;Un couloir du batiment 2ndes;jeudi;Lors de la sonnerie ;45;65;89
+8060;6;Un couloir du batiment 2ndes;vendredi;Lors de la sonnerie ;38;61;96
+8061;7;Un couloir du batiment terminales;mardi;Après la  sonnerie ;60;73;85
+8062;7;Un couloir du batiment terminales;mercredi;Après la  sonnerie ;74;84;93
+8063;7;;;;;;
+8064;7;;;;;;
+8065;7;;;;;;
+8066;7;;;;;;
+8067;7;;;;;;
+8068;7;;;;;;
+8069;7;;;;;;
+8070;7;;;;;;
+8071;8;Le foyer;Lundi;Récréation de l'après-midi;54;68;
+8072;8;Le foyer;Lundi;Récréation de l'après-midi;33;48;80
+8073;8;Le foyer;Mardi;Récréation de l'après-midi;47;50;53
+8074;8;Le foyer;Mercredi;pause méridienne;35;51;78
+8075;8;Le foyer;Vendredi;pause méridienne;53;67;84
+8076;8;Le foyer;Vendredi;pause méridienne;48;57;70
+8077;8;Le foyer;Mardi;Récréation de l'après-midi;43;60;75
+8078;8;Le foyer;Mercredi;pause méridienne;39;54;72
+8079;8;Le foyer;Vendredi;pause méridienne;88;100;114
+8080;8;Le foyer;Mardi;Récréation de l'après-midi;45;59;73
+8081;9;Le CDI;Mercredi;Récréation du matin;23;37;71
+8082;9;Le CDI;Mercredi;pause méridienne;21;28;61
+8083;9;Le CDI;Mercredi;Récréation de l'après-midi;21;35;83
+8084;9;Le CDI;Jeudi;Récréation du matin;21;29;57
+8085;9;Le CDI;Jeudi;pause méridienne;22;33;59
+8086;9;Le CDI;Jeudi;Récréation de l'après-midi;23;33;68
+8087;9;Le CDI;Jeudi;pause méridienne;23;38;77
+8088;9;Le CDI;Vendredi;pause méridienne;20;30;55
+8089;9;Le CDI;Vendredi;Heure libre;25;31;49
+8090;9;Le CDI;Vendredi;Heure libre;23;32;60
+8091;10;Une salle de cours;lundi;cours en travail de groupe;38;53;66
+8092;10;Une salle de cours;lundi;cours en travail de groupe;36;53;66
+8093;10;Une salle de cours;lundi;cours en travail de groupe;31;48;66
+8094;10;Une salle de cours;mardi;cours en travail de groupe;36;58;76
+8095;10;Une salle de cours;mardi;cours en travail de groupe;40;56;73
+8096;10;Une salle de cours;mercredi;cours en travail de groupe;32;55;76
+8097;10;Une salle de cours;jeudi;cours en travail de groupe;29;47;103
+8098;10;Une salle de cours;jeudi;cours en travail de groupe;27;44;79
+8099;10;Une salle de cours;vendredi;cours en travail de groupe;29;46;83
+8100;10;Une salle de cours;vendredi;cours en travail de groupe;28;42;81
+8101;11;"Dans la file d'attente pour la restauration ""Aquarium""";Lundi;pause méridienne;80;90;95
+8102;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mardi;pause méridienne;70;75;80
+8103;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mercredi;pause méridienne;67;73;77
+8104;11;"Dans la file d'attente pour la restauration ""Aquarium""";Vendredi;pause méridienne;87;92;95
+8105;11;"Dans la file d'attente pour la restauration ""Aquarium""";Jeudi;pause méridienne;84;89;91
+8106;11;"Dans la file d'attente pour la restauration ""Aquarium""";Vendredi;pause méridienne;41;46;55
+8107;11;"Dans la file d'attente pour la restauration ""Aquarium""";Lundi;pause méridienne;52;60;67
+8108;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mardi;pause méridienne;50;59;68
+8109;11;"Dans la file d'attente pour la restauration ""Aquarium""";Jeudi;pause méridienne;45;55;60
+8110;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mercredi;pause méridienne;36;43;51
+8111;12;Le réfectoire des élèves;lundi;pause méridienne;54;67;82
+8112;12;Le réfectoire des élèves;lundi;pause méridienne;57;68;83
+8113;12;Le réfectoire des élèves;mardi;pause méridienne;51;67;84
+8114;12;Le réfectoire des élèves;mardi;pause méridienne;56;66;83
+8115;12;Le réfectoire des élèves;mercredi;pause méridienne;45;63;85
+8116;12;Le réfectoire des élèves;mercredi;pause méridienne;49;64;82
+8117;12;Le réfectoire des élèves;jeudi;pause méridienne;59;68;81
+8118;12;Le réfectoire des élèves;jeudi;pause méridienne;57;68;80
+8119;12;Le réfectoire des élèves;vendredi;pause méridienne;57;69;82
+8120;12;Le réfectoire des élèves;vendredi;pause méridienne;58;67;81
+8121;13;Le complexe sportif;Lundi;Séance d' EPS;42;58;82
+8122;13;Le complexe sportif;Lundi;Vestiaire;70;76;80
+8123;13;Le complexe sportif;Lundi;Séance d' EPS;74;78;82
+8124;13;Le complexe sportif;Lundi;Vestiaire;66;81;85
+8125;13;Le complexe sportif;Lundi;Séance d' EPS;52;60;68
+8126;13;Le complexe sportif;Lundi;Séance d' EPS;34;50;71
+8127;13;Le complexe sportif;Lundi;Séance d' EPS;60;66;79
+8128;13;Le complexe sportif;Lundi;Séance d' EPS;40;55;64
+8129;13;Le complexe sportif;Lundi;Séance d' EPS;68;77;86
+8130;13;Le complexe sportif;Lundi;Séance d' EPS;48;60;65
+8131;14;La cour des secondes ;Lundi;Récréation du matin;39;56;68
+8132;14;La cour des secondes ;Mardi;Récréation de l'après-midi;42;57;83
+8133;14;La cour des secondes ;Mercredi;Récréation du matin;37;52;72
+8134;14;La cour des secondes ;Jeudi;Récréation de l'après-midi;43;53;64
+8135;14;La cour des secondes ;Vendredi;Récréation du matin;40;51;65
+8136;14;La cour des secondes ;Lundi;Récréation de l'après-midi;44;56;73
+8137;14;La cour des secondes ;Mardi;Récréation du matin;41;54;70
+8138;14;La cour des secondes ;Mercredi;Récréation de l'après-midi;35;50;80
+8139;14;La cour des secondes ;Jeudi;Récréation du matin;44;51;75
+8140;14;La cour des secondes ;Vendredi;Récréation de l'après-midi;45;52;78
+8141;15;;;;;;
+8142;15;;;;;;
+8143;15;;;;;;
+8144;15;;;;;;
+8145;15;;;;;;
+8146;15;;;;;;
+8147;15;;;;;;
+8148;15;;;;;;
+8149;15;;;;;;
+8150;15;;;;;;
+8151;17;;;;;;
+8152;17;;;;;;
+8153;17;;;;;;
+8154;17;;;;;;
+8155;17;;;;;;
+8156;17;;;;;;
+8157;17;;;;;;
+8158;17;;;;;;
+8159;17;;;;;;
+8160;17;;;;;;

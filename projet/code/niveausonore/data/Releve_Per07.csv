@@ -1,0 +1,151 @@
+﻿Id;N° du binôme;Lieu;Jour;Conditions ;Valeur minimale;Valeur moyenne;Valeur maximale
+7001;1;La cour des premières près des arbres;Lundi;Récréation du matin;47;60;79
+7002;1;La cour des premières près des arbres;Lundi;Récréation de l'après-midi;39;46;77
+7003;1;La cour des premières près des arbres;Mardi;Récréation du matin;48;63;81
+7004;1;La cour des premières près des arbres;Mardi;Récréation de l'après-midi;40;53;80
+7005;1;La cour des premières près des arbres;Mercredi;Récréation du matin;42;57;83
+7006;1;La cour des premières près des arbres;Mercredi;Récréation de l'après-midi;43;58;82
+7007;1;La cour des premières près des arbres;Jeudi;Récréation du matin;45;59;86
+7008;1;La cour des premières près des arbres;Jeudi;Récréation de l'après-midi;38;48;76
+7009;1;La cour des premières près des arbres;Vendredi;Récréation du matin;42;57;79
+7010;1;La cour des premières près des arbres;Vendredi;Récréation de l'après-midi;38;45;83
+7011;2;La cour des premières près des casiers;Lundi;Récréation du matin;46;60;91
+7012;2;La cour des premières près des casiers;Lundi;Récréation de l'après-midi;42;59;87
+7013;2;La cour des premières près des casiers;Mardi;Récréation du matin;39;53;73
+7014;2;La cour des premières près des casiers;Mardi;Récréation de l'après-midi;48;53;58
+7015;2;La cour des premières près des casiers;Mercredi;Récréation du matin;45;61;77
+7016;2;La cour des premières près des casiers;Mercredi;Récréation de l'après-midi;48;57;71
+7017;2;La cour des premières près des casiers;Jeudi;Récréation du matin;39;52;88
+7018;2;La cour des premières près des casiers;Jeudi;Récréation de l'après-midi;44;48;79
+7019;2;La cour des premières près des casiers;Vendredi;Récréation du matin;41;55;72
+7020;2;La cour des premières près des casiers;Vendredi;Récréation de l'après-midi;49;53;67
+7021;3;"L'espace ""fumeurs""";Lundi;Récréation du matin;47;66;83
+7022;3;"L'espace ""fumeurs""";Lundi;Récréation de l'après-midi;43;70;105
+7023;3;"L'espace ""fumeurs""";Mardi;Récréation du matin;44;64;80
+7024;3;"L'espace ""fumeurs""";Mardi;Récréation de l'après-midi;46;66;81
+7025;3;"L'espace ""fumeurs""";Mercredi;Récréation du matin;51;69;85
+7026;3;"L'espace ""fumeurs""";Mercredi;Récréation de l'après-midi;53;68;84
+7027;3;"L'espace ""fumeurs""";Jeudi;Récréation du matin;56;70;91
+7028;3;"L'espace ""fumeurs""";Jeudi;Récréation de l'après-midi;49;64;109
+7029;3;"L'espace ""fumeurs""";Vendredi;Récréation du matin;55;69;97
+7030;3;"L'espace ""fumeurs""";Vendredi;Récréation de l'après-midi;50;68;94
+7031;4;Les toilettes des premières;Lundi;Récréation du matin;65;92;112
+7032;4;Les toilettes des premières;Lundi;Récréation de l'après-midi;67;85;100
+7033;4;Les toilettes des premières;Mardi;Récréation du matin;32;63;79
+7034;4;Les toilettes des premières;Mardi;Récréation de l'après-midi;39;60;77
+7035;4;Les toilettes des premières;Mercredi;Récréation du matin;34;50;90
+7036;4;Les toilettes des premières;Mercredi;Récréation de l'après-midi;40;64;91
+7037;4;Les toilettes des premières;Jeudi;Récréation du matin;29;58;87
+7038;4;Les toilettes des premières;Jeudi;Récréation de l'après-midi;52;62;77
+7039;4;Les toilettes des premières;Vendredi;Récréation du matin;50;65;92
+7040;4;Les toilettes des premières;Vendredi;Récréation de l'après-midi;53;67;105
+7041;5;Un couloir du batiment 1ères;Lundi;Lors de la sonnerie ;36;52;76
+7042;5;Un couloir du batiment 1ères;Lundi;Après la  sonnerie ;50;61;81
+7043;5;Un couloir du batiment 1ères;Mardi;Lors de la sonnerie ;30;43;75
+7044;5;Un couloir du batiment 1ères;Mardi;Après la  sonnerie ;52;63;95
+7045;5;Un couloir du batiment 1ères;Mercredi;Lors de la sonnerie ;22;41;76
+7046;5;Un couloir du batiment 1ères;Mercredi;Après la  sonnerie ;26;43;73
+7047;5;Un couloir du batiment 1ères;Jeudi;Lors de la sonnerie ;23;39;63
+7048;5;Un couloir du batiment 1ères;Jeudi;Après la  sonnerie ;33;52;73
+7049;5;Un couloir du batiment 1ères;Vendredi;Lors de la sonnerie ;39;50;69
+7050;5;Un couloir du batiment 1ères;Vendredi;Après la  sonnerie ;35;47;79
+7051;6;Un couloir du batiment 2ndes;Lundi;Lors de la sonnerie ;35;62;79
+7052;6;Un couloir du batiment 2ndes;Lundi;Après la  sonnerie ;42;54;75
+7053;6;Un couloir du batiment 2ndes;Mardi;Lors de la sonnerie ;40;67;84
+7054;6;Un couloir du batiment 2ndes;Mardi;Après la  sonnerie ;39;53;71
+7055;6;Un couloir du batiment 2ndes;Mercredi;Lors de la sonnerie ;40;64;82
+7056;6;Un couloir du batiment 2ndes;Mercredi;Après la  sonnerie ;35;58;88
+7057;6;Un couloir du batiment 2ndes;Jeudi;Lors de la sonnerie ;39;61;81
+7058;6;Un couloir du batiment 2ndes;Jeudi;Après la  sonnerie ;41;55;76
+7059;6;Un couloir du batiment 2ndes;Vendredi;Lors de la sonnerie ;40;67;89
+7060;6;Un couloir du batiment 2ndes;Vendredi;Après la  sonnerie ;34;50;74
+7061;7;Un couloir du batiment terminales;Lundi;Lors de la sonnerie ;45;61;77
+7062;7;Un couloir du batiment terminales;Lundi;Après la  sonnerie ;47;63;78
+7063;7;Un couloir du batiment terminales;Mardi;Lors de la sonnerie ;22;53;78
+7064;7;Un couloir du batiment terminales;Mardi;Après la  sonnerie ;48;58;72
+7065;7;Un couloir du batiment terminales;Mercredi;Lors de la sonnerie ;41;67;88
+7066;7;Un couloir du batiment terminales;Mercredi;Après la  sonnerie ;42;57;77
+7067;7;Un couloir du batiment terminales;Jeudi;Lors de la sonnerie ;41;66;89
+7068;7;Un couloir du batiment terminales;Jeudi;Après la  sonnerie ;48;60;78
+7069;7;Un couloir du batiment terminales;Vendredi;Lors de la sonnerie ;43;71;91
+7070;7;Un couloir du batiment terminales;Vendredi;Après la  sonnerie ;46;58;73
+7071;8;Le foyer;Lundi;pause méridienne;59;76;105
+7072;8;Le foyer;Lundi;Récréation du matin;44;56;78
+7073;8;Le foyer;Mardi;pause méridienne;61;73;101
+7074;8;Le foyer;Mardi;Récréation du matin;43;58;64
+7075;8;Le foyer;Mercredi;pause méridienne;69;73;107
+7076;8;Le foyer;Mercredi;Récréation du matin;41;53;61
+7077;8;Le foyer;Jeudi;pause méridienne;51;63;85
+7078;8;Le foyer;Jeudi;Récréation du matin;42;58;75
+7079;8;Le foyer;Vendredi;pause méridienne;55;65;102
+7080;8;Le foyer;Vendredi;Récréation du matin;32;46;66
+7081;9;Le CDI;Lundi;Récréation du matin;28;44;77
+7082;9;Le CDI;Lundi;pause méridienne;22;33;54
+7083;9;Le CDI;Mardi;pause méridienne;23;33;47
+7084;9;Le CDI;Mardi;;30;48;80
+7085;9;Le CDI;Mercredi;pause méridienne;21;35;59
+7086;9;Le CDI;Mercredi;;23;37;69
+7087;9;Le CDI;Jeudi;pause méridienne;22;36;74
+7088;9;Le CDI;Jeudi;;22;35;74
+7089;9;Le CDI;Vendredi;pause méridienne;53;60;88
+7090;9;Le CDI;Vendredi;;22;36;78
+7091;10;Une salle de cours;Lundi;cours type magistral;30;47;85
+7092;10;Une salle de cours;Lundi;cours en travail de groupe;51;69;98
+7093;10;Une salle de cours;Mardi;cours type magistral;34;54;88
+7094;10;Une salle de cours;Mardi;cours type magistral;48;71;99
+7095;10;Une salle de cours;Mercredi;cours type magistral;35;50;81
+7096;10;Une salle de cours;Mercredi;cours type magistral;54;67;101
+7097;10;Une salle de cours;Jeudi;cours type magistral;20;45;71
+7098;10;Une salle de cours;Jeudi;cours type magistral;50;67;94
+7099;10;Une salle de cours;Vendredi;cours type magistral;28;43;67
+7100;10;Une salle de cours;Vendredi;cours type magistral;56;69;96
+7101;11;"Dans la file d'attente pour la restauration ""Aquarium""";Lundi;pause méridienne;47;62;81
+7102;11;"Dans la file d'attente pour la restauration ""Aquarium""";Lundi;;45;55;85
+7103;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mardi;pause méridienne;48;64;83
+7104;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mardi;;42;54;80
+7105;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mercredi;pause méridienne;47;63;85
+7106;11;"Dans la file d'attente pour la restauration ""Aquarium""";Mercredi;;44;58;83
+7107;11;"Dans la file d'attente pour la restauration ""Aquarium""";Jeudi;pause méridienne;48;60;80
+7108;11;"Dans la file d'attente pour la restauration ""Aquarium""";Jeudi;;50;59;78
+7109;11;"Dans la file d'attente pour la restauration ""Aquarium""";Vendredi;pause méridienne;49;62;83
+7110;11;"Dans la file d'attente pour la restauration ""Aquarium""";Vendredi;;46;60;87
+7111;12;Le réfectoire des élèves;Lundi;pause méridienne;57;69;81
+7112;12;Le réfectoire des élèves;Lundi;;53;64;79
+7113;12;Le réfectoire des élèves;Mardi;pause méridienne;50;63;75
+7114;12;Le réfectoire des élèves;Mardi;;48;62;72
+7115;12;Le réfectoire des élèves;Mercredi;pause méridienne;54;68;82
+7116;12;Le réfectoire des élèves;Mercredi;;50;65;78
+7117;12;Le réfectoire des élèves;Jeudi;pause méridienne;55;71;87
+7118;12;Le réfectoire des élèves;Jeudi;;53;65;89
+7119;12;Le réfectoire des élèves;Vendredi;pause méridienne;61;76;90
+7120;12;Le réfectoire des élèves;Vendredi;;56;66;87
+7121;13;Le complexe sportif;Mardi;cours en travail de groupe;79;96;109
+7122;13;Le complexe sportif;Mardi;cours en travail de groupe;78;94;121
+7123;13;Le complexe sportif;Mardi;cours en travail de groupe;84;104;125
+7124;13;Le complexe sportif;;;;;
+7125;13;Le complexe sportif;;;;;
+7126;13;Le complexe sportif;;;;;
+7127;13;Le complexe sportif;;;;;
+7128;13;Le complexe sportif;;;;;
+7129;13;Le complexe sportif;;;;;
+7130;13;Le complexe sportif;;;;;
+7131;14;La cour des secondes ;Lundi;Récréation du matin;42;58;74
+7132;14;La cour des secondes ;Lundi;Récréation de l'après-midi;44;54;67
+7133;14;La cour des secondes ;Mardi;Récréation du matin;48;58;74
+7134;14;La cour des secondes ;Mardi;Récréation de l'après-midi;46;55;69
+7135;14;La cour des secondes ;Mercredi;Récréation du matin;39;56;76
+7136;14;La cour des secondes ;Mercredi;Récréation de l'après-midi;24;32;46
+7137;14;La cour des secondes ;Jeudi;Récréation du matin;46;57;75
+7138;14;La cour des secondes ;Jeudi;Récréation de l'après-midi;48;56;72
+7139;14;La cour des secondes ;Vendredi;Récréation du matin;48;56;76
+7140;14;La cour des secondes ;Vendredi;Récréation de l'après-midi;44;54;67
+7141;15;Sous le préau de la cour des terminales;Lundi;Récréation du matin;43;51;65
+7142;15;Sous le préau de la cour des terminales;Lundi;Récréation de l'après-midi;40;52;75
+7143;15;Sous le préau de la cour des terminales;Mardi;Récréation du matin;42;55;72
+7144;15;Sous le préau de la cour des terminales;Mardi;Récréation de l'après-midi;36;57;87
+7145;15;Sous le préau de la cour des terminales;Mercredi;Récréation du matin;44;55;72
+7146;15;Sous le préau de la cour des terminales;Mercredi;Récréation de l'après-midi;42;55;90
+7147;15;Sous le préau de la cour des terminales;Jeudi;Récréation du matin;43;55;80
+7148;15;Sous le préau de la cour des terminales;Jeudi;Récréation de l'après-midi;47;57;69
+7149;15;Sous le préau de la cour des terminales;Vendredi;Récréation du matin;42;56;73
+7150;15;Sous le préau de la cour des terminales;Vendredi;Récréation de l'après-midi;48;59;70
