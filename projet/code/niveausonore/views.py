@@ -13,93 +13,231 @@ def index(request):
     return render(request, "index.html",context={"exemple":a})
 
 def cour_prem_arbre(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def cour_prem_casier(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def espace_fumeur(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def toilettes_prem(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def salle_cours(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def chapelle(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def salle_devoir_t(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def salle_devoir_p(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def couloir_prem(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def couloir_sd(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def couloir_ter(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def foyer(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def cdi(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def rest_cdi(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def rest_aquarium(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def refectoire(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def sport(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def cour_sd(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def preau_ter(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def ref_prof(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def sdp_pc(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
 
 def sdp_distrib(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
-
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
+    
 def sdp_ref(request):
-    ctx = request.GET['contexte']
+    if request.method == 'GET' and all(q in request.GET for x in ['condition','jour']):
+    cdt = request.GET['condition']
     day = request.GET['jour']
+    D = None
+    min,moy,max = search_data(D,ctx,day)
+    ctx = {'min':min,'moy':moy,'max':max}
+    return render(request,'index.html',context=ctx)
+return render(request,'index.html')
