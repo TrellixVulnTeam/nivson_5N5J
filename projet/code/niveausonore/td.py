@@ -34,5 +34,5 @@ def format_data(D):
 
 data = format_data(import_data())
 
-def search_data(D):
+def search_data(D,cdt,day):
     pass
