@@ -1,4 +1,4 @@
-# Traitement des données de type CSV
+# Traitement des donnÃ©es de type CSV
 # Nathan BIZON
 # Le 14/03/2022
 
@@ -8,12 +8,12 @@ import os
 
 print(os.getcwd())
 
-# import des données CSV
+# import des donnÃ©es CSV
 
 def import_data():
     out = []
     for i in range(4,11):
-        path = f'niveausonore/data/Releve_Per0{i}.csv'
+        path = f'data/Releve_Per0{i}.csv'
         with open(path,'r',encoding='utf-8-sig') as f:
             out.append(list(csv.DictReader(f,delimiter=';')))
     return out
@@ -32,7 +32,23 @@ def format_data(D):
                 out.append(j)
     return out
 
-data = format_data(import_data())
+D = format_data(import_data())
 
-def search_data(D):
-    pass
+
+def search_data(D,place,ctx,day):
+    a=0
+    b=0
+    c=0
+    d=0
+    for x in D:
+         if x["Lieu"]==place:
+             if x["Conditions "]==ctx:
+                 if x["Jour"]==day:
+                     a=a+x["Valeur minimale"]
+                     b=b+x["Valeur moyenne"]
+                     c=c+x["Valeur maximale"]
+                     d+=1
+    a=a/d
+    b=b/d
+    c=c/d
+    return a,b,c
