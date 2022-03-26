@@ -1,3 +1,6 @@
+# urls.py
+# définit les urls des différentes pages ainsi que la requête qui doit être effectué (elles sont dans views.py)
+
 """niveausonore URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
@@ -17,8 +20,8 @@ from django.contrib import admin
 from django.urls import path
 from .views import *
 
-urlpatterns = [
-    path('',index,name='index'),
+urlpatterns = [ # cette liste contient tout les chemins d'accès aux différentes pages
+    path('',index,name='index'), # structure : chemin d'accès, requête, nom (pour les balises <a> dans les pages html)
     path('admin/', admin.site.urls),
     path('cour_prem_arbre',cour_prem_arbre,name='cour_prem_arbre'),
     path('cour_prem_casier',cour_prem_casier,name='cour_prem_casier'),
