@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\002-BanDev\Apps\nivson\projet\venv"
+VIRTUAL_ENV="C:\Users\ASUS\Documents\NSI\clone\nivson\projet\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

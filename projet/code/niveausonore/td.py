@@ -13,7 +13,7 @@ print(os.getcwd())
 def import_data():
     out = []
     for i in range(4,11):
-        path = f'data/Releve_Per0{i}.csv'
+        path = f'niveausonore/data/Releve_Per0{i}.csv'
         with open(path,'r',encoding='utf-8-sig') as f:
             out.append(list(csv.DictReader(f,delimiter=';')))
     return out
@@ -34,11 +34,6 @@ def format_data(D):
 
 D = format_data(import_data())
 
-<<<<<<< HEAD
-def search_data(D,cdt,day):
-    pass
-=======
-
 def search_data(D,place,ctx,day):
     a=0
     b=0
@@ -56,4 +51,3 @@ def search_data(D,place,ctx,day):
     b=b/d
     c=c/d
     return a,b,c
->>>>>>> 92c976145b3ec66e6e79ee2ac5e3a40fe18f4c32
