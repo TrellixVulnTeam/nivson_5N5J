@@ -9,9 +9,9 @@
 <body>
 <img src="images/1.jpg" width="100%" id="image">
 	<h1>Cour première près des arbres</h1>
-	<div class="Conditions">
+  <div class="Conditions">
     <h2>Jour</h2>
-    <select id="Jour" onchange="b()">
+    <select id="Jour" name="jour">
       <option value="Lundi">Lundi</option>
       <option value="Mardi">Mardi</option>
       <option value="Mercredi">Mercredi</option>
@@ -19,18 +19,21 @@
       <option value="Vendredi">Vendredi</option>
     </select>
   </div>
+  <form method="get">
 	<div class="Conditions">
     <h2>Conditions</h2>
+    <form method="get">
     <select>
       <option>Récréation du matin</option>
       <option>Récréation de l'après midi</option>
     </select>
+    <button type="submit">rechercher</button>
   </div>
   <br>
   <div class="valeur">
     <div class="colonne">
       <p>Min.</p>
-      <p id="valeurmin">49</p>
+      <p id="valeurmin">{{min}}</p>
       <p>dB</p>
     </div>
     <div class="colonne">
@@ -40,7 +43,7 @@
     </div>
     <div class="colonne">
       <p>Moy.</p>
-      <p id="valeurmoy">59</p>
+      <p id="valeurmoy">{{moy}}</p>
       <p>dB</p>
     </div>
     <div class="colonne">
@@ -50,7 +53,7 @@
     </div>
     <div class="colonne">
       <p>Max.</p>
-      <p id="valeurmax">70</p>
+      <p id="valeurmax">{{max}}</p>
       <p>dB</p>
     </div>
   </div>
