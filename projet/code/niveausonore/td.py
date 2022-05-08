@@ -32,8 +32,43 @@ def format_data(D):
                 out.append(j)
     return out
 
-def search_data(place,ctx,day): #fct
-    D = format_data(import_data())
+def search_data(place,ctx,day):
+    '''
+    Rôle :
+        Déterminer des statistiques à partir de données
+
+    Parameters
+    ----------
+    place : str
+        Lieu des données
+    ctx : str
+        Condition des données
+    day : str
+        Jour des données
+
+    Returns
+    -------
+    Dictionnaire
+        Dictionnaire de statistiques
+    Variable "moymin"
+        La moyenne des valeurs minimales
+    Variable "moymoy"
+        La moyenne des valeurs moyennes
+    Variable "moymax"
+        La moyenne des valeurs maximales
+    Variable "mintemp"
+        La valeur minimale
+    Variable "med"
+        La médiane
+    Variable "maxtemp"
+        La valeur maximale
+    Variable "p_fatiguant"
+        La proportion de valeur entre 80 et 90dB
+    Variable "p_dangereux"
+        La proportion de valeur au dessus de 90dB
+
+    '''
+    D = format_data(import_data()) #table
     moymin,moymoy,moymax,eff,maxtemp=0,0,0,0,0 #Initialisation des variables
     mintemp=999 #Initialisation d'une variable pour avoir le minimum temporaire
     med,fati,dang=[],[],[] #Initialisation de listes
@@ -48,7 +83,7 @@ def search_data(place,ctx,day): #fct
                      med.append(x["Valeur minimale"]),med.append(x["Valeur moyenne"]),med.append(x["Valeur maximale"]),med.sort() #Création d'un tableau de toutes les valeurs puis trié
                      if maxtemp<x["Valeur maximale"]:
                          maxtemp=x["Valeur maximale"] #calcul de la valeur maximale
-                     fati.append([med[i] for i in range(len(med)) if med[i]>=80]) #Création d'un tableau de valeurs au dessus de 80
+                     fati.append([med[i] for i in range(len(med)) if med[i]>=80 and med[i]<=90]) #Création d'un tableau de valeurs au dessus de 80
                      dang.append([med[i] for i in range(len(med)) if med[i]>=90]) #Création d'un tableau de valeurs au dessus de 90
     out = {
         "moymin":round(moymin/eff,1),
