@@ -4,11 +4,6 @@
     margin-top: 0%;
     transition: margin-bottom 3s, margin-top 3s;
 }
-/* .bouton:hover {
-  margin-bottom: 3%;
-  margin-top: 3%;
-  transition-duration: 1s;
-} */
 .Conditions {
 	float:left;
 	margin-top: -1.3%;
@@ -23,24 +18,31 @@
 	height:280px;
 	transition-duration: 1s;
 }
-h2:hover {
-	color:red;
-}
 iframe {
-	width: 1%;
-	height: 1%;
+	width :30%;
+	height :500px;
 	margin-bottom: 3%;
 	margin-left: 3%;
 }
-
-.colonne {
-	text-align:center;
+#colonne1 {
+	width: 85%;
 	float:left;
-	width:10%;
-	margin-top: 5%;
-	
+}
+#colonne2 {
+	float:left;
 }
 
-.valeur {
-	color:rgb(0, 190, 190);
+#Dangereux {
+	background-color: red;
+	height: 50px;
+}
+
+#Fatiguant {
+	background-color: orange;
+	height: 50px;
+}
+
+#Supportable {
+	background-color: green;
+	height: 50px;
 }
