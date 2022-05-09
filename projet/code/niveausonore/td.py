@@ -13,7 +13,7 @@ print(os.getcwd())
 def import_data():
     out = []
     for i in range(4,11):
-        path = f'niveausonore/data/Releve_Per0{i}.csv'
+        path = f'data/Releve_Per0{i}.csv'
         with open(path,'r',encoding='utf-8-sig') as f:
             out.append(list(csv.DictReader(f,delimiter=';')))
     return out
