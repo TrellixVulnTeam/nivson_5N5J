@@ -1,0 +1,48 @@
+.bouton {
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 0%;
+    transition: margin-bottom 3s, margin-top 3s;
+}
+.Conditions {
+	float:left;
+	margin-top: -1.3%;
+}
+
+#image {
+	height: 125px;
+	transition: height 1.5s;
+}
+
+#image:hover {
+	height:280px;
+	transition-duration: 1s;
+}
+iframe {
+	width :30%;
+	height :500px;
+	margin-bottom: 3%;
+	margin-left: 3%;
+}
+#colonne1 {
+	width: 85%;
+	float:left;
+}
+#colonne2 {
+	float:left;
+}
+
+#Dangereux {
+	background-color: red;
+	height: 50px;
+}
+
+#Fatiguant {
+	background-color: orange;
+	height: 50px;
+}
+
+#Supportable {
+	background-color: green;
+	height: 50px;
+}
