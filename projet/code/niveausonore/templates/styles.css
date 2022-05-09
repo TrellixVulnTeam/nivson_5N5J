@@ -1,0 +1,147 @@
+.bouton {
+    position: absolute;
+    margin-left: 0%;
+    margin-top: 0%;
+    transition: margin-bottom 3s, margin-top 3s;
+}
+.Conditions {
+	float:left;
+	margin-top: -1.3%;
+}
+
+#image {
+	height: 125px;
+	transition: height 1.5s;
+}
+
+#image:hover {
+	height:280px;
+	transition-duration: 1s;
+}
+iframe {
+	width :30%;
+	height :500px;
+	margin-bottom: 3%;
+	margin-left: 3%;
+}
+#colonne1 {
+	width: 85%;
+	float:left;
+}
+#colonne2 {
+	float:left;
+}
+
+#Dangereux {
+	background-color: red;
+}
+
+#Fatiguant {
+	background-color: orange;
+}
+
+#Supportable {
+	background-color: green;
+}
+
+#bouton_espace_fumeur {
+	margin-top :42%;
+	margin-left :45%;
+}
+
+#Plan {
+	position:absolute;
+}
+
+#bouton_cdi {
+	margin-top :27%;
+	margin-left :39%;
+}
+
+#bouton_cour_prem_arbres {
+	margin-top :39%;
+	margin-left :25%;
+}
+
+#bouton_Aquarium_file_dattente{
+	margin-top :41%;
+	margin-left :38%;
+}
+
+#bouton_CDI_manger_file_dattente{
+	margin-top :32%;
+	margin-left :37%;
+}
+
+#bouton_foyer{
+	margin-top :32%;
+	margin-left :65%;
+}
+
+#bouton_cour_des_seconde{
+	margin-top :20%;
+	margin-left :15%;
+}
+
+#bouton_salle_prof_bat_L_coin_distributeur{
+	margin-top :18%;
+	margin-left :41%;
+}
+
+#bouton_salle_prof_bat_L_coin_ordinateur{
+	margin-top :18%;
+	margin-left :42%;
+}
+
+#bouton_complexe_sportif{
+	margin-top :28%;
+	margin-left :87%;
+}
+
+#bouton_refectoire_prof_bat_P{
+	margin-top :34%;
+	margin-left :24%;
+}
+
+#bouton_refectoire_eleves{
+	margin-top :33%;
+	margin-left :41%;
+}
+
+#bouton_toilette_prem{
+	margin-top :37%;
+	margin-left :39%;
+}
+#P302{
+	margin-top :35%;
+	margin-left :17%;
+}
+
+#bouton_t301 {
+	margin-top :35%;
+	margin-left :57%;
+}
+#bouton_salle_de_cour {
+	margin-top :43%;
+	margin-left :18%;
+}
+#bouton_cour_prem_casier {
+	margin-top :37%;
+	margin-left :37%;
+}
+#bouton_couloir_term {
+	margin-top :35%;
+	margin-left :60%;
+}
+#bouton_couloir_sec {
+	margin-top :25%;
+	margin-left :23%;
+}
+#bouton_chapelle {
+	margin-top :35%;
+	margin-left :46%;
+}
+#bouton_préau_cours_term {
+	margin-top :40%;
+	margin-left :54%;
+}

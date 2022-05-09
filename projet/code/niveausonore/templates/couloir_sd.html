@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+<img src="images/10.jpg" width="100%" id="image">
+	<h1>Un couloir du batiment des secondes</h1>
+  <div class="Conditions">
+    <h2>Jour</h2>
+    <select id="Jour" name="jour">
+      <option value="Lundi">Lundi</option>
+      <option value="Mardi">Mardi</option>
+      <option value="Mercredi">Mercredi</option>
+      <option value="Jeudi">Jeudi</option>
+      <option value="Vendredi">Vendredi</option>
+    </select>
+  </div>
+  <form method="get">
+	<div class="Conditions">
+    <h2>Conditions</h2>
+    <form method="get">
+    <select>
+      <option>Récréation du matin</option>
+      <option>Récréation de l'après midi</option>
+    </select>
+    <button type="submit">rechercher</button>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div id="diagramme">
+    <div id="colonne">
+    <div>
+      <p id="Dangereux">
+      {{maxtemp}} <br>
+      {{moymax}} <br>
+      {{p_dangereux}}
+      </p>
+    </div>
+    <div>
+      <p id="Fatiguant">
+      {{moymoy}} <br>
+      {{med}} <br>
+      {{p_fatiguant}}
+      </p>
+    </div>
+    <div id="Supportable">
+      <p>
+      {{moymin}} <br>
+      {{mintemp}}
+      </p>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
+
