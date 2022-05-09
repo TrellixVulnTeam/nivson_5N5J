@@ -2,13 +2,6 @@
 
 SI VOUS VOULEZ INSTALLER UNE LIB AVEC PIP DEMANDEZ MOI AVANT DE RAJOUTTER, MERCI !
 
-pour lancer le site, vous devez aller dans une invite de commandes, **IMPOSSIBLE D'ÉXÉCUTER AUTREMENT** :
-`../projet/venv/Scripts>activate.bat`
+### Pour lancer le site
 
-`../projet/code> py manage.py runserver`
-
-## Messages pour les professeurs
-
-Voici différents messages d'erreurs que vous pouvez voir et comment les résoudre :
-
-1 - 
+Vous avez juste à éxécuter start.py qui vous donnera les indications de tout ce que vous devez faire.
