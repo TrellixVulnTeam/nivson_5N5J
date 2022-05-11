@@ -1,106 +1,108 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <script src="{% static 'js/script.js' %}"></script>
     <title>Niveau sonore</title>
 </head>
 <body>
-   <img src="Plan.jpg" width="100%" height="100%" id="Plan">
-	<input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_espace_fumeur" onclick="a()">
-    <iframe src="{% 'espace_fumeur' %}" id="espace_fumeur" hidden>
+
+   <img src="{% static 'img/plan.png' %}" width="100%" height="100%" id="Plan">
+	<input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_espace_fumeur" onclick="a()">
+    <iframe src="{% url 'espace_fumeur' %}" id="espace_fumeur" hidden>
 	</iframe>
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_cdi" onclick="a()">
-    <iframe src="CDI" id="CDI" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_cdi" onclick="a()">
+    <iframe src="{% url 'cdi' %}" id="CDI" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_cour_prem_arbres" onclick="a()">
-    <iframe src="{% 'Cour_prem_arbre' %}" id="Cour_prem_arbre" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_cour_prem_arbres" onclick="a()">
+    <iframe src="{% url 'cour_prem_arbre' %}" id="Cour_prem_arbre" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_Aquarium_file_dattente" onclick="a()">
-    <iframe src="{% 'rest_aquarium' %}" id="Aquarium_file_d'attente" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_Aquarium_file_dattente" onclick="a()">
+    <iframe src="{% url 'rest_aquarium' %}" id="Aquarium_file_d'attente" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_CDI_manger_file_dattente" onclick="a()">
-    <iframe src="{% 'rest_cdi' %}" id="CDI_manger_file_d'attente" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_CDI_manger_file_dattente" onclick="a()">
+    <iframe src="{% url 'rest_cdi' %}" id="CDI_manger_file_d'attente" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_foyer" onclick="a()">
-    <iframe src="{% 'foyer' %}" id="Foyer" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_foyer" onclick="a()">
+    <iframe src="{% url 'foyer' %}" id="Foyer" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_cour_des_seconde" onclick="a()">
-    <iframe src="{% 'cour_sd' %}" id="cour des secondes" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_cour_des_seconde" onclick="a()">
+    <iframe src="{% url 'cour_sd' %}" id="cour des secondes" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_salle_prof_bat_L_coin_distributeur" onclick="a()">
-    <iframe src="{% 'sdp_disrtib' %}" id="salle_prof_bat_L_coin_distributeur" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_salle_prof_bat_L_coin_distributeur" onclick="a()">
+    <iframe src="{% url 'sdp_distrib' %}" id="salle_prof_bat_L_coin_distributeur" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_salle_prof_bat_L_coin_ordinateur" onclick="a()">
-    <iframe src="{% 'cdi' %}" id="CDI" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_salle_prof_bat_L_coin_ordinateur" onclick="a()">
+    <iframe src="{% url 'cdi' %}" id="CDI" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_complexe_sportif" onclick="a()">
-    <iframe src="{% 'sport' %}" id="complexe sportif" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_complexe_sportif" onclick="a()">
+    <iframe src="{% url 'sport' %}" id="complexe sportif" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_refectoire_prof_bat_P" onclick="a()">
-    <iframe src="{% 'ref_prof' %}" id="refectoire prof bat P" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_refectoire_prof_bat_P" onclick="a()">
+    <iframe src="{% url 'ref_prof' %}" id="refectoire prof bat P" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_refectoire_eleves" onclick="a()">
-    <iframe src="{% 'refectoire' %}" id="refectoire eleves" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_refectoire_eleves" onclick="a()">
+    <iframe src="{% url 'refectoire' %}" id="refectoire eleves" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_toilette_prem" onclick="a()">
-    <iframe src="{% 'toilettes_prem' %}" id="toilette prem" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_toilette_prem" onclick="a()">
+    <iframe src="{% url 'toilettes_prem' %}" id="toilette prem" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="P302" onclick="a()">
-    <iframe src="{% 'salle_devoir_p' %}" id="P302" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="P302" onclick="a()">
+    <iframe src="{% url 'salle_devoir_p' %}" id="P302" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_préau_cours_term" onclick="a()">
-    <iframe src="{% 'preau_ter' %}" id="préau term" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_préau_cours_term" onclick="a()">
+    <iframe src="{% url 'preau_ter' %}" id="préau term" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_chapelle" onclick="a()">
-    <iframe src="{% 'chapelle' %}" id="chapelle" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_chapelle" onclick="a()">
+    <iframe src="{% url 'chapelle' %}" id="chapelle" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_couloir_prem" onclick="a()">
-    <iframe src="{% 'couloir_prem' %}" id="couloir prem" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_couloir_prem" onclick="a()">
+    <iframe src="{% url 'couloir_prem' %}" id="couloir prem" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_couloir_sec" onclick="a()">
-    <iframe src="{% 'couloir_sd' %}" id="couloir sec" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_couloir_sec" onclick="a()">
+    <iframe src="{% url 'couloir_sd' %}" id="couloir sec" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_couloir_term" onclick="a()">
-    <iframe src="{% 'couloir_ter' %}" id="couloirs term" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_couloir_term" onclick="a()">
+    <iframe src="{% url 'couloir_ter' %}" id="couloirs term" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_cour_prem_casier" onclick="a()">
-    <iframe src="{% 'cour_prem_casier' %}" id="cour_prem_casier" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_cour_prem_casier" onclick="a()">
+    <iframe src="{% url 'cour_prem_casier' %}" id="cour_prem_casier" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_espace_fumeur" onclick="a()">
-    <iframe src="{% 'espace_fumeur' %}" id="espace_fumeur" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_espace_fumeur" onclick="a()">
+    <iframe src="{% url 'espace_fumeur' %}" id="espace_fumeur" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_salle_de_cour" onclick="a()">
-    <iframe src="{% 'salle_cour' %}" id="salle de cour" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_salle_de_cour" onclick="a()">
+    <iframe src="{% url 'salle_cours' %}" id="salle de cour" hidden>
 	</iframe>
 
-    <input type="image" src="bouton gg map.png" width="2%", height="4%" class="bouton" id="bouton_t301" onclick="a()">
-    <iframe src="{% 'salle_devoir_t' %}" id="t301" hidden>
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_t301" onclick="a()">
+    <iframe src="{% url 'salle_devoir_t' %}" id="t301" hidden>
 	</iframe>
 
- 
+
 </body>
 </html>

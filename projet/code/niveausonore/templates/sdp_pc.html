@@ -7,7 +7,8 @@
   <script src="script.js"></script>
 </head>
 <body>
-<img src="images/21.jpg" width="100%" id="image">
+{% load static %}
+<img src="{% static 'img/21.jpg' %}" width="100%" id="image">
 	<h1>La salle des profs (coin ordinateurs) bâtiment L</h1>
   <form method="get">
     <div class="Conditions">
@@ -59,4 +60,3 @@
     </div>
   </body>
   </html>
-  

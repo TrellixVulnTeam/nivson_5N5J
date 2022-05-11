@@ -7,7 +7,8 @@
   <script src="script.js"></script>
 </head>
 <body>
-<img src="images/20.jpg" width="100%" id="image">
+{% load static %}
+<img src="{% static 'img/20.jpg' %}" width="100%" id="image">
 	<h1>Le réfectoire des professeurs batiment P</h1>
   <form method="get">
     <div class="Conditions">
