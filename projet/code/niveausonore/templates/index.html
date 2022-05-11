@@ -12,10 +12,7 @@
 <body>
 
    <img src="{% static 'img/plan.png' %}" width="100%" height="100%" id="Plan">
-	<input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_espace_fumeur" onclick="a()">
-    <iframe src="{% url 'espace_fumeur' %}" id="espace_fumeur" hidden>
-	</iframe>
-    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_cdi" onclick="a()">
+    <input type="image" src="{% static 'img/bouton_gg_map.png' %}" width="2%", height="4%" class="bouton" id="bouton_cdi" onclick="a('CDI')">
     <iframe src="{% url 'cdi' %}" id="CDI" hidden>
 	</iframe>
 
