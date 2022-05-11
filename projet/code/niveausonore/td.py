@@ -27,21 +27,32 @@ def format_data(D): # les valeurs sont de type str et on veut les convertir en i
                 out.append(j) # et on met chaque dictionnaire dans une liste
     return out # on retourne une liste de dictionnaire. La nouvelle liste est donc plus facile à traiter
 
-def search_data(place,ctx,day): # fait un recherche des données et calcule leur moyennes | crée par Diego
-    D = format_data(import_data()) # D prend la valeur de la liste de dictionnaires
-    a=0 # initialisation des variables
-    b=0
-    c=0
-    d=0
-    for x in D: # pour chaque dictionnaires
-         if x["Lieu"]==place: # si c'est la valeur recherché
-             if x["Conditions "]==ctx:
-                 if x["Jour"]==day:
-                     a=a+x["Valeur minimale"] # on somme pour effectuer la moyenne
-                     b=b+x["Valeur moyenne"]
-                     c=c+x["Valeur maximale"]
-                     d+=1 # d correspond au nombre de valeurs
-    a=a/d # on effectue la moyenne
-    b=b/d
-    c=c/d
-    return a,b,c # on renvoie un tuple conteanant la valeur minimale, la moyenne et la valeur maximale
+def search_data(place,ctx,day): #fct
+    D = format_data(import_data())
+    moymin,moymoy,moymax,eff,maxtemp=0,0,0,0,0 #Initialisation des variables
+    mintemp=999 #Initialisation d'une variable pour avoir le minimum temporaire
+    med,fati,dang=[],[],[] #Initialisation de listes
+    for x in D: #recherche dans le data
+         if x["Lieu"]==place: #correspondance avec le lieu
+             if x["Conditions "]==ctx: #correspondance avec la condition
+                 if x["Jour"]==day: #correspondance avec le jour
+                     moymin,moymoy,moymax=moymin+x["Valeur minimale"],moymoy+x["Valeur moyenne"],moymax+x["Valeur maximale"] #accumulation des valeurs dans les moyennes
+                     eff+=1 #compteur d'effectif
+                     if mintemp>x["Valeur minimale"]:
+                         mintemp=x["Valeur minimale"] #calcul de la valeur minimale
+                     med.append(x["Valeur minimale"]),med.append(x["Valeur moyenne"]),med.append(x["Valeur maximale"]),med.sort() #Création d'un tableau de toutes les valeurs puis trié
+                     if maxtemp<x["Valeur maximale"]:
+                         maxtemp=x["Valeur maximale"] #calcul de la valeur maximale
+                     fati.append([med[i] for i in range(len(med)) if med[i]>=80 and med[i]<=90]) #Création d'un tableau de valeurs au dessus de 80
+                     dang.append([med[i] for i in range(len(med)) if med[i]>=90]) #Création d'un tableau de valeurs au dessus de 90
+    out = {
+        "moymin":round(moymin/eff,1),
+        "moymoy":round(moymoy/eff,1),
+        "moymax":round(moymax/eff,1),
+        "mintemp":mintemp,
+        "med":med[int((len(med)/2)-1)],
+        "maxtemp":maxtemp,
+        "p_fatiguant":round((len(fati[-1])*100)/(len(med)),1),
+        "p_dangereux":round((len(dang[-1])*100)/(len(med)),1)
+          }
+    return out #Arrondi à 10^-1 de la moyenne des valeurs minimales,Arrondi à 10^-1 de la moyenne des valeurs moyennes,Arrondi à 10^-1 de la moyenne des valeurs maximales,Renvoi de la valeur minimale,Renvoi de la valeur médiane, Renvoi de la valeur maximale,Arrondi à 10^-1 de la proportion de valeurs au dessus de 80,Arrondi à 10^-1 de la proportion de valeurs au dessus de 90

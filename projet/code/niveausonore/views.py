@@ -17,8 +17,7 @@ def cour_prem_arbre(request):
     if request.method == 'GET' and all(q in request.GET for q in ['condition','jour']): # la requête est de type GET et a des éléments ?
         cdt = request.GET['condition'] # prendre le contenu de la variable condition
         day = request.GET['jour'] # prendre le conenu de la variable jour
-        mini,moy,maxi = search_data("La cour des premières près des arbres",cdt,day) # on cherche les données dans les fichiers csv
-        ctx = {'mini':mini,'moy':moy,'maxi':maxi} # on met les données dans un dictionnaire
+        ctx = search_data("La cour des premières près des arbres",cdt,day) # on cherche les données dans les fichiers csv
         return render(request,'cour_prem_arbre.html',context=ctx) # on retourne la page avec le dictionnaire. Dans les pages HTML elles sont indiqué entre deux acolades
     return render(request,'cour_prem_arbre.html') # s'il n'y a pas d'éléments alors on affiche juste la page
 
