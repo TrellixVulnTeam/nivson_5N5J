@@ -12,7 +12,8 @@
 
 <img src="{% static 'img/10.jpg' %}" width="100%" id="image">
 	<h1>Un couloir du batiment des secondes</h1>
-  <div class="Conditions">
+  <form method="get">
+  <div class="Jour">
     <h2>Jour</h2>
     <select id="Jour" name="jour">
       <option value="Lundi">Lundi</option>
@@ -22,16 +23,23 @@
       <option value="Vendredi">Vendredi</option>
     </select>
   </div>
-  <form method="get">
-	<div class="Conditions">
-    <h2>Conditions</h2>
-    <form method="get">
-    <select>
-      <option>Récréation du matin</option>
-      <option>Récréation de l'après midi</option>
+  <div class="Conditions">
+    <h2>Condition</h2>
+    <select id="Conditions" name="condition">
+      <option value="Récréation du matin">Récréation du matin</option>
+      <option value="Récréation de l'après midi">Récréation de l'après midi</option>
+      <option value="pause méridienne">pause méridienne</option>
+      <option value="cours type magistral">cours type magistral</option>
+      <option value="cours en travail de groupe">cours en travail de groupe</option>
+      <option value="Après la  sonnerie ">Après la  sonnerie </option>
+      <option value="Lors de la sonnerie ">Lors de la sonnerie </option>
+      <option value="Heure libre">Heure libre</option>
+      <option value="Vestiaire">Vestiaire</option>
+      <option value="Séance d' EPS">Séance d' EPS</option>
     </select>
-    <button type="submit">rechercher</button>
   </div>
+    <button type="submit">rechercher</button>
+  </form>
   <br>
   <br>
   <br>
