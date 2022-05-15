@@ -26,14 +26,20 @@ iframe {
 
 #Dangereux {
 	background-color: red;
+	color: black;
+	font-weight: bold;
 }
 
 #Fatiguant {
 	background-color: orange;
+	color:brown;
+	font-weight: bold;
 }
 
 #Supportable {
 	background-color: green;
+	color:white;
+	font-weight: bold;
 }
 
 #Plan {
