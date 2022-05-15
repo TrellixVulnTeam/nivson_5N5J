@@ -26,14 +26,20 @@ iframe {
 
 #Dangereux {
 	background-color: red;
+	color: black;
+	font-weight: bold;
 }
 
 #Fatiguant {
 	background-color: orange;
+	color:brown;
+	font-weight: bold;
 }
 
 #Supportable {
 	background-color: green;
+	color:white;
+	font-weight: bold;
 }
 
 #Plan {
@@ -41,105 +47,224 @@ iframe {
 	z-index: 0;
 }
 
-#bouton_espace_fumeur,#espace_fumeur {
-	margin-top :42%;
-	margin-left :45%;
+#bouton_espace_fumeur {
+	margin-top: 42%;
+	margin-left: 45%;
 }
 
-#bouton_cdi,#CDI {
+#espace_fumeur {
+	margin-top: 42%;
+	margin-left: 47%;
+}
+
+
+#bouton_cdi {
 	margin-top :27%;
 	margin-left :39%;
 }
 
-#bouton_cour_prem_arbres,#Cour_prem_arbre {
+#CDI {
+	margin-top :27%;
+	margin-left :41%;
+}
+
+#bouton_cour_prem_arbres {
 	margin-top :39%;
 	margin-left :25%;
 }
 
-#bouton_Aquarium_file_dattente,#Aquarium_file_dattente {
+#Cour_prem_arbre {
+	margin-top :39%;
+	margin-left :27%;
+}
+
+#bouton_Aquarium_file_dattente {
 	margin-top :41%;
 	margin-left :38%;
 }
 
-#bouton_CDI_manger_file_dattente,#CDI_manger_file_dattente{
+#Aquarium_file_dattente {
+	margin-top :41%;
+	margin-left :40%;
+}
+
+#bouton_CDI_manger_file_dattente{
 	margin-top :32%;
 	margin-left :37%;
 }
 
-#bouton_foyer,#Foyer{
+#CDI_manger_file_dattente {
+	margin-top :32%;
+	margin-left :39%;
+}
+
+#bouton_foyer{
 	margin-top :32%;
 	margin-left :65%;
 }
 
-#bouton_cour_des_seconde,#cour_des_secondes{
+#Foyer {
+	margin-top :32%;
+	margin-left :67%;
+}
+
+#bouton_cour_des_seconde{
 	margin-top :20%;
 	margin-left :15%;
 }
 
-#bouton_salle_prof_bat_L_coin_distributeur,#salle_prof_bat_L_coin_distributeur{
+#cour_des_secondes {
+	margin-top :20%;
+	margin-left :17%;
+}
+
+#bouton_salle_prof_bat_L_coin_distributeur{
 	margin-top :18%;
 	margin-left :41%;
 }
 
-#bouton_salle_prof_bat_L_coin_ordinateur,#salle_prof_bat_L_coin_ordinateur{
+#salle_prof_bat_L_coin_distributeur {
+	margin-top :18%;
+	margin-left :43%;
+}
+
+#bouton_salle_prof_bat_L_coin_ordinateur{
 	margin-top :18%;
 	margin-left :42%;
 }
 
-#bouton_complexe_sportif,#complexe_sportif{
+#salle_prof_bat_L_coin_ordinateur {
+	margin-top :18%;
+	margin-left :44%;
+}
+
+#bouton_complexe_sportif{
 	margin-top :28%;
 	margin-left :87%;
 }
 
-#bouton_refectoire_prof_bat_P,#refectoire_prof_bat_P{
+#complexe_sportif {
+	margin-top :28%;
+	margin-left :89%;
+}
+
+#bouton_refectoire_prof_bat_P{
 	margin-top :34%;
 	margin-left :24%;
 }
 
-#bouton_refectoire_eleves,#refectoire_eleves{
+#refectoire_prof_bat_P {
+	margin-top :34%;
+	margin-left :26%;
+}
+
+#bouton_refectoire_eleves{
 	margin-top :33%;
 	margin-left :41%;
 }
 
-#bouton_toilette_prem,#toilette_prem{
+#refectoire_eleves {
+	margin-top :33%;
+	margin-left :43%;
+}
+
+#bouton_toilette_prem{
 	margin-top :37%;
 	margin-left :39%;
 }
-#bouton_P302,#P302{
+
+#toilette_prem {
+	margin-top :37%;
+	margin-left :41%;
+}
+
+#bouton_P302{
 	margin-top :35%;
 	margin-left :17%;
 }
 
-#bouton_t301,#t301 {
+#P302 {
+	margin-top :35%;
+	margin-left :19%;
+}
+
+#bouton_t301 {
 	margin-top :35%;
 	margin-left :57%;
 }
-#bouton_salle_de_cour,#salle_de_cour {
+
+#t301 {
+	margin-top :35%;
+	margin-left :59%;
+}
+
+#bouton_salle_de_cour {
 	margin-top :43%;
 	margin-left :18%;
 }
-#bouton_cour_prem_casier,#cour_prem_casier {
+
+#salle_de_cour {
+	margin-top :43%;
+	margin-left :20%;
+}
+
+#bouton_cour_prem_casier {
 	margin-top :37%;
 	margin-left :37%;
 }
-#bouton_couloir_term,#couloirs_term {
+
+#cour_prem_casier {
+	margin-top :37%;
+	margin-left :39%;
+}
+
+#bouton_couloir_term {
 	margin-top :35%;
 	margin-left :60%;
 }
+
+#couloirs_term {
+	margin-top :35%;
+	margin-left :62%;
+}
+
 #bouton_couloir_sec,#couloir_sec {
 	margin-top :25%;
 	margin-left :23%;
 }
-#bouton_chapelle,#chapelle {
+
+#couloir_sec {
+	margin-top :25%;
+	margin-left :25%;
+}
+
+#bouton_chapelle {
 	margin-top :35%;
 	margin-left :46%;
 }
-#bouton_préau_cours_term,#préau_term {
+
+#chapelle {
+	margin-top :35%;
+	margin-left :48%;
+}
+
+#bouton_préau_cours_term {
 	margin-top :40%;
 	margin-left :54%;
 }
 
-#bouton_couloir_prem,#couloir_prem {
+#préau_term{
+	margin-top :40%;
+	margin-left :56%;
+}
+
+#bouton_couloir_prem {
 	margin-top :45%;
 	margin-left :21%;
 }
+
+#couloir_prem {
+	margin-top :45%;
+	margin-left :23%;
+}
+

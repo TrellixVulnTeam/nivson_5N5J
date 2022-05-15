@@ -53,23 +53,23 @@
     <div id="colonne">
     <div>
       <p id="Dangereux">
-      {{maxtemp}} <br>
-      {{moymax}} <br>
-      {{p_dangereux}}
-      </p>
-    </div>
-    <div>
-      <p id="Fatiguant">
-      {{moymoy}} <br>
-      {{med}} <br>
-      {{p_fatiguant}}
-      </p>
-    </div>
-    <div id="Supportable">
-      <p>
-      {{moymin}} <br>
-      {{mintemp}}
-      </p>
+        La valeur maximale est de : {{maxtemp}} dB<br>
+        La moyenne des valeurs maximales est de {{moymax}} dB<br>
+        La proportion de valeurs >90 dB est de : {{p_dangereux}} %
+        </p>
+      </div>
+      <div>
+        <p id="Fatiguant">
+        La moyenne des valeurs moyennes est de : {{moymoy}} dB<br>
+        La valeur médiane est de : {{med}} dB<br>
+        La proportion de valeurs entre 80 et 90 dB est de : {{p_fatiguant}} %
+        </p>
+      </div>
+      <div id="Supportable">
+        <p>
+        La moyenne des valeurs minimales est de : {{moymin}} dB<br>
+        La valeur minimale est de : {{mintemp}} dB
+        </p>
     </div>
     </div>
   </div>

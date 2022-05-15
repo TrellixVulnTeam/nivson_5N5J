@@ -8,14 +8,3 @@ function a(el) {
 	}
 }
 
-function b() {
-	var a=document.getElementById("Jour").value;
-	if (a=="Lundi") {
-		location.reload();
-	}
-	if (a=="Mardi") {
-		document.getElementById("valeurmin").innerHTML="4";
-		document.getElementById("valeurmoy").innerHTML="12";
-		document.getElementById("valeurmax").innerHTML="15";
-	}
-}
