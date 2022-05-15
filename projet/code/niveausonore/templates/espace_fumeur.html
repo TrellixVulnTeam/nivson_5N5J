@@ -1,0 +1,72 @@
+<!doctype html>
+{% load static %}
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+  <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+
+
+<img src="{% static 'img/3.jpg' %}" width="100%" id="image">
+	<h1>Espace Fumeur</h1>
+  <form method="get">
+  <div class="Jour">
+    <h2>Jour</h2>
+    <select id="Jour" name="jour">
+      <option value="Lundi">Lundi</option>
+      <option value="Mardi">Mardi</option>
+      <option value="Mercredi">Mercredi</option>
+      <option value="Jeudi">Jeudi</option>
+      <option value="Vendredi">Vendredi</option>
+    </select>
+  </div>
+  <div class="Conditions">
+    <h2>Condition</h2>
+    <select id="Conditions" name="condition">
+      <option value="Récréation du matin">Récréation du matin</option>
+      <option value="Récréation de l'après midi">Récréation de l'après midi</option>
+      <option value="pause méridienne">pause méridienne</option>
+      <option value="cours type magistral">cours type magistral</option>
+      <option value="cours en travail de groupe">cours en travail de groupe</option>
+      <option value="Après la  sonnerie ">Après la  sonnerie </option>
+      <option value="Lors de la sonnerie ">Lors de la sonnerie </option>
+      <option value="Heure libre">Heure libre</option>
+      <option value="Vestiaire">Vestiaire</option>
+      <option value="Séance d' EPS">Séance d' EPS</option>
+    </select>
+  </div>
+    <button type="submit">rechercher</button>
+  </form>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div id="diagramme">
+    <div id="colonne">
+    <div>
+      <p id="Dangereux">
+        La valeur maximale est de : {{maxtemp}} dB<br>
+        La moyenne des valeurs maximales est de {{moymax}} dB<br>
+        La proportion de valeurs >90 dB est de : {{p_dangereux}} %
+        </p>
+      </div>
+      <div>
+        <p id="Fatiguant">
+        La moyenne des valeurs moyennes est de : {{moymoy}} dB<br>
+        La valeur médiane est de : {{med}} dB<br>
+        La proportion de valeurs entre 80 et 90 dB est de : {{p_fatiguant}} %
+        </p>
+      </div>
+      <div id="Supportable">
+        <p>
+        La moyenne des valeurs minimales est de : {{moymin}} dB<br>
+        La valeur minimale est de : {{mintemp}} dB
+        </p>
+    </div>
+  </div>
+</body>
+</html>
